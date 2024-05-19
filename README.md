@@ -6,6 +6,13 @@ but still working..
 **Sway EndeavourOS Community Edition**
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
+## To install automatically
+https://discovery.endeavouros.com/installation/customizing-the-endeavouros-install-process/2022/03/
+
+- beware there is no visible information that post install will be running
+
+    `eos-welcome --ni="URL"`
+
 
 ## To Install Manually
 
@@ -52,7 +59,7 @@ https://forum.endeavouros.com/t/sway-edition-general-conversation
  - Background handled by swaybg
  - Gtk3 theme handled by lxappearance
  - Filebrowser = Thunar
- - Default Terminal-Emulator = XFCE4-Terminal and/or Termite
+ - Default Terminal-Emulator = Alacritty
  - Text-Editor = xed/nano
  - Bar = Waybar
  - Sound = Pulseaudio
