@@ -225,3 +225,8 @@ bindsym $mod+r mode "resize"
 # Keybindings List
 #
     bindsym $mod+t exec xed ~/.config/sway/cheatsheet
+
+#
+# Clipboard
+#
+    bindsym $mod+Shift+p exec cliphist list | wofi -S dmenu | cliphist decode | wl-copy

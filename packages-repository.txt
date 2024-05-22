@@ -41,3 +41,4 @@ ttf-font-awesome
 alacritty
 ansible
 nvim
+cliphist
